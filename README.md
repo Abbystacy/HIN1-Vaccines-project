@@ -11,12 +11,15 @@ This project addresses an important public health challenge by predicting the li
 The findings can support public health authorities, healthcare providers, and policymakers in improving vaccine distribution strategies, designing more effective communication campaigns, and developing targeted interventions aimed at increasing vaccination uptake within communities.
 
 **Data Understanding**
+
 This dataset originates from the National Flu Survey (NHFS) of 2009, a survey conducted to understand public behavior and attitudes regarding influenza vaccination, specifically targeting the H1N1 flu vaccine.
 
 **Modeling**
+
 In the modeling stage, machine learning models were developed to predict whether an individual received the H1N1 vaccine. A Logistic Regression model was first implemented as a baseline . A Random Forest model was then trained to capture more complex relationships in the data. Additionally, an ensemble model combining multiple algorithms was implemented to improve predictive performance. 
 
 **Findings**
+
 Two models were developed to predict H1N1 vaccine uptake: Logistic Regression as the baseline model and Random Forest as a more advanced model. The Logistic Regression model achieved an accuracy of about 77% with an ROC-AUC of 0.82, showing good ability to distinguish between vaccinated and non-vaccinated individuals, though it produced more false positives. The Random Forest model also demonstrated strong predictive performance, correctly identifying a large number of individuals who did not receive the vaccine and reducing false positives. However, it missed more vaccinated individuals. Overall, both models performed well but showed different strengths in predicting vaccination behavior.
 
 **Conclusions**
