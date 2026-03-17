@@ -23,4 +23,5 @@ In the modeling stage, machine learning models were developed to predict whether
 Two models were developed to predict H1N1 vaccine uptake: Logistic Regression as the baseline model and Random Forest as a more advanced model. The Logistic Regression model achieved an accuracy of about 77% with an ROC-AUC of 0.82, showing good ability to distinguish between vaccinated and non-vaccinated individuals, though it produced more false positives. The Random Forest model also demonstrated strong predictive performance, correctly identifying a large number of individuals who did not receive the vaccine and reducing false positives. However, it missed more vaccinated individuals. Overall, both models performed well but showed different strengths in predicting vaccination behavior.
 
 **Conclusions**
+
 The findings highlight the need to address people’s health concerns and support better awareness to encourage higher vaccination uptake. Public health authorities can use the factors identified in this analysis to design more effective vaccination campaigns and communication strategies aimed at improving public confidence in vaccines.
