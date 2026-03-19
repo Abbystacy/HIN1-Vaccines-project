@@ -5,14 +5,42 @@ This project analyzes factors that influence individuals’ decisions to receive
 
 Through exploratory data analysis and machine learning techniques, the project identifies key variables associated with vaccine uptake and builds predictive models to estimate the likelihood of individuals receiving the H1N1 vaccine. The insights generated from this analysis can help inform public health strategies aimed at improving vaccination rates and addressing barriers to vaccine adoption.
 
-**Business Understanding**
+**Business problem**
 
-This project addresses an important public health challenge by predicting the likelihood that individuals will receive the H1N1 and seasonal flu vaccines based on their demographic characteristics, personal beliefs, and health-related behaviors. By analyzing these factors, the study provides insights into the patterns that influence vaccination decisions.
-The findings can support public health authorities, healthcare providers, and policymakers in improving vaccine distribution strategies, designing more effective communication campaigns, and developing targeted interventions aimed at increasing vaccination uptake within communities.
+Vaccine reluctance remains a major obstacle to public health initiatives, as it can reduce vaccination rates and increase the risk of disease outbreaks. Gaining insight into the factors that influence individuals’ decisions to accept or decline vaccines is essential for developing strategies that encourage higher vaccination uptake. This project aims to use machine learning methods to predict whether individuals are likely to receive the H1N1 flu vaccine, using data collected from the National Flu Survey (NHFS 2009).
 
 **Data Understanding**
 
-This dataset originates from the National Flu Survey (NHFS) of 2009, a survey conducted to understand public behavior and attitudes regarding influenza vaccination, specifically targeting the H1N1 flu vaccine.
+This dataset originates from the National Flu Survey (NHFS) of 2009, a survey conducted to understand public behavior and attitudes regarding influenza vaccination, specifically targeting the H1N1 flu vaccine. The data includes perception-based variables such as:
+
+Perceived risk of H1N1 infection, Beliefs about vaccine effectiveness ,Concerns about vaccine safety
+and the target variable H1N1 vaccine.
+
+**EDA data analysis**
+
+EDA was conducted to understand data distribution and relationships between variables.
+
+Key insights explored:
+
+Vaccine uptake distribution ,Effects of doctor's recommendation ,perception of vaccine effectiveness,risk perception and demographic factors.
+
+**Data cleaning and processing**
+
+Data preprocessing was implemented using a pipeline to ensure consistency and avoid data leakage.
+Key steps included:
+
+1.Handling missing values:
+
+   Median imputation for numerical features
+
+   Most frequent imputation for categorical features
+
+2.Scaling numerical variables using StandardScaler
+
+3.Encoding categorical variables using OneHotEncoder
+
+4.Applying transformations using a ColumnTransformer
+
 
 **Modeling**
 
